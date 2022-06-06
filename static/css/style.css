@@ -13,13 +13,18 @@ input[type=text], input[type=password] {
   display: inline-block;
   border: none;
   background: #f1f1f1;
-}
 
+}
+h1{
+  font-family: 'Fjalla One', sans-serif;
+}
 input[type=text]:focus, input[type=password]:focus {
   background-color: #ddd;
   outline: none;
 }
-
+label{
+    font-family: 'Fjalla One', sans-serif;
+}
 /* Overwrite default styles of hr */
 hr {
   border: 1px solid #f1f1f1;
@@ -28,7 +33,7 @@ hr {
 
 /* Set a style for the submit/register button */
 .registerbtn {
-  background-color: #04AA6D;
+  background-color: #FFB6C1;
   color: white;
   padding: 16px 20px;
   margin: 8px 0;
@@ -36,6 +41,8 @@ hr {
   cursor: pointer;
   width: 100%;
   opacity: 0.9;
+  font-family: 'Fjalla One', sans-serif;
+
 }
 
 .registerbtn:hover {
@@ -45,6 +52,7 @@ hr {
 /* Add a blue text color to links */
 a {
   color: dodgerblue;
+  font-family: 'Fjalla One', sans-serif;
 }
 
 /* Set a grey background color and center the text of the "sign in" section */
@@ -58,9 +66,10 @@ a {
   height: 100%;
 }
 .welcome{
+  font-family: 'Fjalla One', sans-serif;
   display: flex;
   justify-content: center;
   align-items: center;
   height: 200px;
-  border: 3px solid green;
+  border: 3px #FFB6C1;
 }
